@@ -1,28 +1,72 @@
-React + Vite
+Features
 
-This template provides a minimal setup to get React working in Vite with HMR (Hot Module Replacement) and some ESLint rules.
+Project Setup:
 
-Available Plugins
+React.js: Built with functional components and hooks.
 
-Currently, two official plugins are available:
+React Router: For seamless navigation.
 
-@vitejs/plugin-react: Uses Babel for Fast Refresh.
+#Styling options: tailwind.
 
-@vitejs/plugin-react-swc: Uses SWC for Fast Refresh.
+#Home Page:
 
-Getting Started
+#Displays a list of users fetched from this API: 👉 JSONPlaceholder Users.
 
-To run the project, follow these steps:
+#Shows name, email, and city for each user.
+
+#Search bar: Filter users by name.
+
+#Sorting: Implemented by name (A-Z, Z-A).
+
+#Clicking on a user navigates to their detail page.
+
+#User Detail Page:
+
+#Displays full user details:
+
+Name
+
+Email
+
+Phone
+
+Company Name
+
+Website
+
+#Includes a "Go Back" button to return to the home page.
+
+#Additional Features:
+
+State Management: Implemented using React Context API or Redux.
+
+Loading and Error Handling: Provides feedback during data fetching.
+
+#Fully responsive UI: Optimized for mobile and desktop.
+
+#Bonus (Optional, Extra Points):
+
+Pagination: Adds easy navigation for the user list.
+
+
+
+
+
+
+
+#Getting Started
+
+#To run the project, follow these steps:
 
 Install dependencies:
 
 npm install
 
-Start the development server:
+#Start the development server:
 
 npm run dev
 
-If you encounter errors, install the required dependencies:
+#If you encounter errors, install the required dependencies:
 
 npm install react-router-dom
 npm install axios
